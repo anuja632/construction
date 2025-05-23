@@ -24,6 +24,8 @@
   <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/animate.css">
 
+<link rel="stylesheet" href="css/spacing.css">
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="css/image/favicon.png">
 </head>
@@ -33,7 +35,7 @@
   }
 </style>
 <body>
-    <header class="theme-main-menu theme-menu-two black-bg">
+    <header class="theme-main-menu theme-menu-two black-bg fixed-top">
 			<div class="container header-custom-container pt-20 pb-20">
 				<div class="row">
 					<div class="col-lg-3 d-none d-lg-inline-block">
@@ -54,7 +56,7 @@
 									</div>
 								</div>
 							</li>
-									<li>
+									<li  class="d-none d-sm-inline-block">
 										<div class="header-info-box">
 										<div class="icon">
 											<img src="css/image/location.svg" alt="Location">
@@ -65,7 +67,7 @@
 										</div>
 										</div>
 									</li>
-							<li >
+							<li  class ="d-none d-sm-inline-block ">
 								<div class="header-info-box">
 									<div class="icon">
 										<img src="css/image/phone.svg" alt="Phone">
@@ -202,6 +204,8 @@
 			</div>
 			<!-- /.theme-main-menu -->
 		</header>
+
+
 <!-- Sidebar -->
 <aside class="slide-bar">
 			<div class="close-mobile-menu">
@@ -322,21 +326,21 @@
 		</aside>
 
   <!-- Page Title Area -->
-  <div class="page-title-area pt-220 pb-240 pt-lg-120 pb-lg-125 pb-md-100"
+     <div class="page-title-area pt-220 pb-240 pt-lg-120 pb-lg-125 pb-md-100"
        style="background-image: url('css/image/contactbanner.jpg');">
     <img class="page-title-shape shape-one" src="css/image/line-14d.svg" alt="shape">
     <img class="page-title-shape shape-two" src="css/image/pattern-1a.svg" alt="shape">
 
     <div class="container">
-      <div class="row gx-4 gx-xxl-5 align-items-center">
+      <div class="row gx-4 gx-xxl-5 align-items-center" id="aq">
         <div class="col-xl-6 col-md-6">
           <div class="page-title-wrapper text-md-start text-center">
             <h2 class="page-titles mb-10">Contact</h2>
                 <nav aria-label="breadcrumb">
                 <ul class="breadcrumb justify-content-center justify-content-md-start">
                     <li><a href="index.html">Home</a></li>
-                    <li><span>/</span></li>
-                    <li class="active" aria-current="page">Contact</li>
+                    <!-- <li><span>/</span></li> -->
+                    <li class="active" aria-current="page">contact</li>
                 </ul>
                 </nav>
 
@@ -345,6 +349,7 @@
       </div>
     </div>
   </div>
+
 
 
 <div class="contact-container">
